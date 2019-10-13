@@ -1,0 +1,92 @@
+	.maindiv{
+		background-image: url("../images/bg.png");
+		height: 100vh;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: right bottom;
+	}
+	header{
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		padding-top: 20px;
+	    margin-bottom: 40px
+	}
+	.logo-area{
+
+width: 20%;
+
+float: left;
+
+}
+	.logo{
+		
+	font-size: 21px;
+		
+	color: #01215C;
+		
+	text-decoration: none;
+		
+	font-weight: 600;
+		
+	text-transform: uppercase;
+	}
+
+	nav{
+		
+		width: 80%;
+		float: right;
+	}
+	.menu-buttons{
+		padding: 0;
+		margin:0;
+		text-align: right;
+	}
+	nav ul li{
+		list-style: none;
+		display: inline-block;
+	}
+	nav ul li a{
+		list-style: none;
+		text-decoration: none;
+		color: #2564FD;
+		font-size: 18px;
+		padding: 10px 20px;
+		border-radius: 30px;
+		transition: background-color 0.4s;
+	}
+		nav ul li a:hover{
+            color:#ffffff;
+			background-color:#059FD5; 
+		}
+.middle-space{
+height: 100px;
+width:100%;
+
+}
+.articles{
+	    width: 40%;
+    float: left;
+    margin-left: 40px;
+}
+
+.articles-header{
+    font-size: 38px;
+    font-weight: 600;
+    text-align: left;
+    color: #3B4D5B;
+}
+.articles-text{
+    color: #686288;
+    margin-bottom: 30px
+}
+.articles-button{
+	text-decoration: none;
+	font-size: 19px;
+	list-style: none;
+    color: #ffffff;
+    background-color: #00A4D7;
+    border-radius: 30px;
+    padding: 10px 20px;
+
+}
